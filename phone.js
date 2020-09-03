@@ -22,3 +22,11 @@ $("#add_newContactBtn").click(function() {
   $("#ContactContent").hide();
   $("#contactForm").show();
 });
+
+$("#numpad button").click(function() {
+	$("#nums").val($("#nums").val() + this.innerText);
+})
+
+$("#buttonC").click(function() {
+	$("#nums").val("");
+})

@@ -1,0 +1,84 @@
+<html>
+  <head>
+
+    <title>HW1</title>
+    <link rel="stylesheet" href="phone.css"
+  </head>
+  <body>
+    <div id ="tabs">
+      <button id="dialerBtn">Dialer</button>
+      <button id="contactsBtn">Contact List</button>
+      <button id="add_newContactBtn">Add Contact</button>
+    </div>
+    <div id ="Main">
+      <div id ="numpad">
+        <p><strong>Dialer</strong></p>
+        <form>
+
+          <input id ="nums" placeholder="000-000-0000">
+        </form>
+        <h3>
+          <button class="number" id="button1">1</button>
+          <button class="number" id="button2">2</button>
+          <button class="number" id="button3">3</button>
+        </h3>
+          <button class="number" id="button4">4</button>
+          <button class="number" id="button5">5</button>
+          <button class="number" id="button6">6</button>
+        <h3>
+          <button class="number" id="button7">7</button>
+          <button class="number" id="button8">8</button>
+          <button class="number" id="button9">9</button>
+        </h3>
+        <h3>
+          <button class="number" id="button*">*</button>
+          <button class="number" id="button0">0</button>
+          <button class="number" id="button#">#</button>
+        </h3>
+          <button class="dial" id="buttonD">Dial</button>
+          <button class="clear" id="buttonC">Clear</button>
+        </div>
+
+      <div id="ContactContent">
+        <p><strong>Contact List</strong></p>
+          <h3>
+            <button id="contactperson">Person 1</button>
+            <button id="contactperson">Person 2</button>
+            <button id="contactperson">Person 3</button>
+          </h3>
+          <h3>
+            <button id="contactperson">Person 4</button>
+            <button id="contactperson">Person 5</button>
+            <button id="contactperson">Person 6</button>
+          </h3>
+          <h3>
+            <button id="contactperson">Person 7</button>
+            <button id="contactperson">Person 8</button>
+            <button id="contactperson">Person 9</button>
+          </h3>
+      </div>
+      <div id ="contactForm">
+        <p><strong>Add Contact</strong></p>
+        <form class="enterForm">
+          <label for ="name"><strong>Name</strong></label>
+          <input id ="name" placeholder="John Doe">
+        </form>
+        <form class="enterForm">
+          <label for ="num"><strong>Phone Number</strong></label>
+          <input id ="name" placeholder="000-000-0000">
+        </form>
+        <form class="enterForm">
+          <label for ="email"><strong>Email address</strong></label>
+          <input id ="email" placeholder="John.Doe@colorado.edu">
+        </form>
+        <form>
+          <button id="Add_Contact">Email</button>
+          <button id="Clear_Contact">Clear</button>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src"phone.js"></script>
+
+  </body>
+</html>
